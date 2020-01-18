@@ -1,0 +1,12 @@
+[package]
+name = 'moon'
+version = '0.0.1'
+description = 'WIP: Safe bindings to Lua 5.1 and LuaJIT 2.0'
+authors = ['Christoph Hommelsheim <mail@chomel.eu>']
+license = 'MIT'
+edition = '2018'
+repository = 'https://github.com/HellButcher/moon-rs'
+keywords = ['lua', 'luajit', 'scripting']
+categories = ['api-bindings']
+
+[dependencies]
