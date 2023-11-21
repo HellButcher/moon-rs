@@ -1,0 +1,3 @@
+[submodule "moon-luajit-sys/luajit-2.0"]
+	path = moon-luajit-sys/luajit-2.0
+	url = http://luajit.org/git/luajit-2.0.git

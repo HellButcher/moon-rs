@@ -6,7 +6,14 @@ authors = ['Christoph Hommelsheim <mail@chomel.eu>']
 license = 'MIT'
 edition = '2018'
 repository = 'https://github.com/HellButcher/moon-rs'
-keywords = ['lua', 'luajit', 'scripting']
+keywords = [
+    'lua',
+    'luajit',
+    'scripting',
+]
 categories = ['api-bindings']
 
 [dependencies]
+moon-luajit-sys = { path = '../moon-luajit-sys' }
+libc = "0.2.68"
+bstr = "0.2.12"

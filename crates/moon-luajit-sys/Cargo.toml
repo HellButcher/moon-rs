@@ -1,0 +1,29 @@
+[package]
+name = 'moon-luajit-sys'
+version = '0.0.1'
+authors = ['Christoph Hommelsheim <mail@chomel.eu>']
+license = 'MIT'
+edition = '2018'
+repository = 'https://github.com/HellButcher/moon-rs'
+keywords = [
+    'lua',
+    'luajit',
+    'scripting',
+]
+categories = ['external-ffi-bindings']
+links = "luajit"
+build = "build.rs"
+
+[features]
+# don't build the library, use the library of the system
+use-system-lib = []
+
+[build-dependencies]
+bindgen = "0.53.2"
+fs_extra = "1.1.0"
+pkg-config = "0.3.17"
+cc = "1.0.50"
+regex = "1.3.6"
+
+[dependencies]
+libc = "0.2.68"
